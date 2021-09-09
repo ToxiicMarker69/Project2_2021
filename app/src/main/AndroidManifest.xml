@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project2Redo">
         <activity
-            android:name=".MainActivity"
+            android:name=".BMICalc"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayInfo"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
